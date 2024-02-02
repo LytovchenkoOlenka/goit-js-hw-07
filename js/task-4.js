@@ -1,9 +1,5 @@
 `use strict`;
 
-// const email = document.getElementsByName(`email`);
-// const password = document.getElementsByName(`password`);
-// const submitBtn = document.getElementsByTagName(`button`);
-
 const form = document.querySelector(`.login-form`);
 
 form.addEventListener("submit", (event) => {

@@ -10,6 +10,7 @@ const boxesArea = document.querySelector(`#boxes`);
 
 function createBoxes() {
   const amound = input.value;
+  destroyBoxes();
   if (amound >= 1 && amound <= 100) {
     let size = 30;
     for (let i = 0; i < amound; i++) {

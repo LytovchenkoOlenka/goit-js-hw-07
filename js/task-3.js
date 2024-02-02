@@ -8,9 +8,3 @@ textInput.addEventListener("input", (greating) => {
   const outputValue = inputValue === "" ? "Anonymous" : inputValue;
   textOutput.textContent = outputValue;
 });
-
-// textInput.addEventListener("input", (greating) => {
-//   textInput.textContent = greating.currentTarget.value.trim();
-//   textOutput.textContent =
-//     textInput.textContent === "" ? "Anonymous" : textInput.textContent;
-// });
